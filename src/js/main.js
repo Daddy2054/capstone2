@@ -1,5 +1,5 @@
-import $ from 'lodash'
-import shuffle from './shuffle'
+const $ = require('lodash')
+const shuffle = require('./shuffle')
 
 
 function rand (max) {
